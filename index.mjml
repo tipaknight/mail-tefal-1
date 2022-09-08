@@ -1,0 +1,367 @@
+<mjml>
+  <mj-head>
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css2?family=Roboto" />
+    <mj-breakpoint width="576px" />
+
+    <mj-attributes>
+		<mj-all font-family="Roboto, sans-serif"/>
+      <mj-text align="center" padding="0" />
+      <mj-image padding="0" />
+      <mj-section padding="0" />
+    </mj-attributes>
+    <mj-title>Tefal</mj-title>
+    <mj-preview>Это прехедер</mj-preview>
+		<mj-style inline="inline">
+	a {text-decoration: none !important; color: white;}
+		</mj-style>
+    <mj-style>
+
+		 .pad-group{
+			padding: 10px 0 !important;
+		}
+      .header-mob{ display: none !important;}
+			.banner-mob{ display: none !important;}
+			.footer-mob{ display: none !important;}
+			@media screen and (max-width: 576px){ .header-mob{ display: block
+      !important; } .header-desk{ display: none !important; }
+			.score-mobile{text-align: center; padding-bottom: 10px !important;}
+			.score-text {color: #6d6d6d !important;
+			text-decoration: underline !important;}
+			.offer-col{width: 35% !important;} .offer-col-1{width: 65% !important;} }
+			@media screen and (max-width: 480px){
+				.banner-desk{ display: none !important;}
+				.banner-mob{display: block !important;}
+				.text-banner-1 div{font-size: 18px !important;}
+				.text-banner-2 div{font-size: 15px !important;}
+				.footer-desk{display: none !important;}
+				.footer-mob{display: block !important;}
+			}
+    </mj-style>
+  </mj-head>
+  <mj-body width="600px" background-color="#E5E5E5"
+    ><mj-section css-class="header-desk" background-color="#000000">
+      <mj-column>
+        <mj-image href="https://shop.tefal.ru/" src="https://i.postimg.cc/zv9J5nkf/logo.png" alt="logo" />
+        <mj-image src="https://i.postimg.cc/Bv6QTQt4/line-5.png" alt="line" />
+      </mj-column>
+    </mj-section>
+    <mj-section css-class="header-mob" background-color="#000000" padding-top="10px">
+      <mj-column>
+        <mj-image href="https://shop.tefal.ru/" src="https://i.postimg.cc/65GHH7DZ/logo-mob-1.png" alt="logo" />
+        <mj-text font-size="15px" font-weight="700" align="center" color="#ffffff" padding-top="10px">
+          ОФИЦИАЛЬНЫЙ ИНТЕРНЕТ-МАГАЗИН</mj-text
+        >
+        <mj-image padding="15px 20px 5px" src="https://i.postimg.cc/Bv6QTQt4/line-5.png" alt="line" />
+      </mj-column>
+    </mj-section>
+    <mj-section css-class="header-desk" padding="10px 0" background-color="#000000">
+      <mj-column>
+        <mj-navbar>
+          <mj-navbar-link
+            text-transform="none"
+            font-size="16px"
+            padding="0 10px"
+            line-height="18px"
+            color="#ffffff"
+            href="https://shop.tefal.ru/category/posuda"
+            >Посуда
+          </mj-navbar-link>
+          <mj-navbar-link
+            text-transform="none"
+            font-size="16px"
+            padding="0 10px"
+            line-height="18px"
+            color="#ffffff"
+            href="https://shop.tefal.ru/category/prigotovlenie-edy"
+            >Приготовление еды
+          </mj-navbar-link>
+          <mj-navbar-link
+            text-transform="none"
+            font-size="16px"
+            padding="0 10px"
+            line-height="18px"
+            color="#ffffff"
+            href="https://shop.tefal.ru/category/utjugi-i-parogeneratory"
+            >Утюги и парогенераторы
+          </mj-navbar-link>
+          <mj-navbar-link
+            text-transform="none"
+            font-size="16px"
+            padding="0 10px "
+            line-height="18px"
+            color="#ffffff"
+            href="https://shop.tefal.ru/category/pylesosy"
+            >Пылесосы</mj-navbar-link
+          >
+        </mj-navbar>
+      </mj-column>
+    </mj-section>
+    <mj-section css-class="header-mob" padding="5px 0 10px" background-color="#000000">
+      <mj-column>
+        <mj-navbar>
+          <mj-navbar-link
+            text-transform="none"
+            font-size="12px"
+            padding="0 15px"
+            line-height="18px"
+            color="#ffffff"
+            href="https://shop.tefal.ru/category/posuda"
+            >Посуда
+          </mj-navbar-link>
+          <mj-navbar-link
+            text-transform="none"
+            font-size="12px"
+            padding="0 15px"
+            line-height="18px"
+            color="#ffffff"
+            href="https://shop.tefal.ru/category/prigotovlenie-edy"
+            >Приготовление еды
+          </mj-navbar-link>
+          <mj-navbar-link
+            text-transform="none"
+            font-size="12px"
+            padding="0 15px"
+            line-height="18px"
+            color="#ffffff"
+            href="https://shop.tefal.ru/category/pylesosy"
+            >Пылесосы
+          </mj-navbar-link>
+          <mj-navbar-link
+            text-transform="none"
+            font-size="12px"
+            padding="0 15px "
+            line-height="18px"
+            color="#ffffff"
+            href="https://shop.tefal.ru/category/utjugi-i-parogeneratory"
+            >Утюги и парогенераторы</mj-navbar-link
+          >
+        </mj-navbar>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#000000">
+		<mj-column padding="0 5px">
+	<mj-social align="right" font-size="12px" icon-size="19px" mode="horizontal" css-class="score-mobile" inner-padding="2px" text-padding="0 10px 0 0" padding-bottom="10px" color="#ffffff">
+	<mj-social-element src="https://i.postimg.cc/q7pg3BH1/score.png">
+		Баллы: <span style="color: #EB212E;" >@{ IF RECIPIENT.GETBONUSPOINTSACCOUNT("MAINBALANCE").AVAILABLE > 1} ${FORMATDECIMAL (RECIPIENT.GETBONUSPOINTSACCOUNT("MAINBALANCE").AVAILABLE,"N0")} @{ END IF }@{ IF RECIPIENT.GETBONUSPOINTSACCOUNT("MAINBALANCE").AVAILABLE = 0 }${FORMATDECIMAL (RECIPIENT.GETBONUSPOINTSACCOUNT("MAINBALANCE").AVAILABLE,"N0")}@{ END IF }​<span>
+	</mj-social-element>
+	<mj-social-element src="https://i.postimg.cc/kMLQtS1w/level.png">
+		Уровень: <span style="color: #EB212E;" > @{IF RECIPIENT.ISINSEGMENT("PLCOLDUROVENLOYALNOSTI")} GOLD @{ELSE IF RECIPIENT.ISINSEGMENT("PLSILVERUROVENLOYALNOSTI")} SILVER @{ELSE IF RECIPIENT.ISINSEGMENT("PLCLASSICUROVENLOYALNOSTI")} CLASSIC @{ELSE} - @{END IF}​<span>
+	</mj-social-element>
+<mj-social-element text-decoration="underline" border-radius="0" icon-size="0" href="https://shop.tefal.ru/loyalty-program"><span class="score-text">
+	Как использовать баллы?</span>
+</mj-social-element>
+	</mj-social>
+</mj-column> </mj-section>
+<mj-section css-class="banner-desk" background-color="#060e39">
+	<mj-column padding="0 10px">
+		<mj-image href="https://shop.tefal.ru/x-o-questionnaire" align="center" src="https://i.postimg.cc/3W5d9MV9/image-747.png" alt="Без проводов" />
+	</mj-column>
+</mj-section>
+<mj-section css-class="banner-mob" background-color="#060e39">
+	<mj-column>
+		<mj-image href="https://shop.tefal.ru/x-o-questionnaire" align="center" src="https://i.postimg.cc/RCjR2Wzp/image-746.png" alt="Без проводов" />
+	</mj-column>
+</mj-section>
+<mj-section background-color="#060e39">
+<mj-column width="476px" padding="0 10px">
+	<mj-text css-class="text-banner-1" align="center" color="#ffffff" font-size="20px" padding="30px 10px 10px" line-height="1.1">
+Нам очень важно мнение наших покупателей.
+	</mj-text>
+	<mj-text css-class="text-banner-2" align="center" color="#ffffff" font-size="16px" padding="0 15px 20px" line-height="1.1">
+		Поделитесь своими впечатлениями<br>
+об использовании пылесоса Х-Ô и мы подарим вам
+500 баллов на следующую покупку.
+	</mj-text>
+</mj-column>
+</mj-section>
+<mj-section background-color="#060e39">
+	<mj-column width="165px">
+<mj-button href="https://shop.tefal.ru/x-o-questionnaire" align="center" background-color="#eb212e" border-radius="4px" font-size="16px" width="165px" height="39px" inner-padding="0" padding="0 0 40px">
+Пройти опрос
+</mj-button>
+	</mj-column>
+</mj-section>
+
+<mj-section background-color="#000000" padding="32px 0 10px 20px">
+  <mj-group css-class="pad-group" width="50%">
+    <mj-column css-class="offer-col" width="30%" >
+      <mj-image
+        css-class="offer-img" href="https://shop.tefal.ru/video-consultations"
+        width="50px"
+        align="right"
+        padding-right="10px"
+        src="https://i.postimg.cc/LXL1tC0T/consult.png"
+        alt="Онлайн-консультация"
+      />
+    </mj-column>
+    <mj-column css-class="offer-col-1" width="70%" padding="0 10px 0 0" >
+      <mj-text
+        font-size="14px"
+        align="justify"
+        font-weight="400"
+        color="#ffffff"
+        line-height="18px"
+      ><a href="https://shop.tefal.ru/video-consultations" style="text-decoration: none;"><span style="color: white !important;">
+        Онлайн-консультация</span>
+      </a></mj-text>
+      <mj-text font-size="12px" align="justify" color="#A8A8A8" line-height="14px" height="50px">
+        Покажем и расскажем<br />
+        о технике и посуде<br />
+        не выходя из дома!
+      </mj-text>
+    </mj-column>
+  </mj-group>
+  <mj-group css-class="pad-group" width="50%">
+    <mj-column css-class="offer-col" width="30%" padding="0 0 0 10px">
+      <mj-image
+        css-class="offer-img"
+        width="50px"
+        align="right"
+        padding-right="10px"
+        src="https://i.postimg.cc/JhKg1xQp/loyalty.png"
+        alt="Программа лояльности"
+				href="https://shop.tefal.ru/loyalty-program"
+      />
+    </mj-column>
+    <mj-column css-class="offer-col-1" width="70%" padding="0 0 0 5px">
+      <mj-text
+        font-size="14px"
+        align="justify"
+        font-weight="400"
+        color="#ffffff"
+        line-height="18px"
+      ><a href="https://shop.tefal.ru/loyalty-program" style="text-decoration: none;"><span style="color: white !important;">
+        Программа лояльности</span>
+      </a></mj-text>
+      <mj-text
+        css-class="text-p-20"
+        font-size="12px"
+        align="justify"
+        line-height="14px"
+        color="#A8A8A8"
+        height="50px"
+      >
+        Баллы за покупки и многие<br />
+        другие преимущества
+      </mj-text>
+    </mj-column>
+  </mj-group>
+  <mj-group css-class="pad-group" width="50%">
+    <mj-column css-class="offer-col" width="30%" padding="0 0 0 10px">
+      <mj-image
+        css-class="offer-img"
+        width="50px"
+        align="right"
+        padding-right="10px"
+        src="https://i.postimg.cc/kXX2Gg9w/return.png"
+        alt="Бесплатный возврат"
+				href="https://shop.tefal.ru/vozvrat-tovara"
+      />
+    </mj-column>
+    <mj-column css-class="offer-col-1" width="70%" padding="0 10px 0 0">
+      <mj-text
+        font-size="14px"
+        align="justify"
+        font-weight="400"
+        color="#ffffff"
+        line-height="18px"
+      ><a href="https://shop.tefal.ru/vozvrat-tovara" style="text-decoration: none;"><span style="color: white !important;">
+        Возврат товара</span>
+      </a></mj-text>
+      <mj-text font-size="12px" align="justify" color="#A8A8A8" line-height="14px" height="50px">
+        По любой причине<br />
+        в течение 7 дней
+      </mj-text>
+    </mj-column>
+  </mj-group>
+
+  <mj-group css-class="pad-group" width="50%">
+    <mj-column css-class="offer-col" width="30%" padding="0 0 0 10px">
+      <mj-image
+        css-class="offer-img"
+        width="50px"
+        align="right"
+        padding-right="10px"
+        src="https://i.postimg.cc/gjRbkRjr/free-ship.png"
+        alt="Бесплатная доставка"
+				href="https://shop.tefal.ru/dostavka"
+      />
+    </mj-column>
+    <mj-column css-class="offer-col-1" width="70%" padding="0 0 0 5px">
+      <mj-text
+        font-size="14px"
+        align="justify"
+        font-weight="400"
+        color="#ffffff"
+        line-height="18px"
+      ><a href="https://shop.tefal.ru/dostavka" style="text-decoration: none;">Бесплатная доставка</a></mj-text>
+      <mj-text font-size="12px" align="justify" color="#A8A8A8" line-height="14px" height="50px">
+        При сумме заказа<br />
+        от 3 000 ₽!
+      </mj-text>
+    </mj-column>
+  </mj-group>
+</mj-section>
+<mj-section background-color="#000000" padding="0 ">
+		<mj-group>
+			<mj-column width="34%" padding="0">
+	<mj-social icon-size="27px" mode="horizontal" inner-padding="3px" padding="0" >
+		<mj-social-element src="https://i.postimg.cc/nckwKTyp/youtube-icon.png" href="https://www.youtube.com/channel/UCqfJnUUiCaYA5MlnBRrBR8g">
+		</mj-social-element>
+		<mj-social-element src="https://i.postimg.cc/pdfb5wJR/vk-icon.png" href="https://vk.com/tefal_ru">
+			</mj-social-element>
+		</mj-column>
+		<mj-column width="22%" padding="0">
+	<mj-text align="justify" padding="8px 0 0 0" color="#A8A8A8" font-size="14px" color="#a8a8a8" ><a href="https://shop.tefal.ru/oplata" style="text-decoration: none;"><span style="color: white !important;">
+Оплата</span></a>
+	</mj-text>
+	</mj-column>
+	<mj-column width="22%" padding="0">
+	<mj-text align="justify" padding="8px 0 0 0" color="#A8A8A8" font-size="14px" color="#a8a8a8"><a href="https://shop.tefal.ru/vozvrat-tovara" style="text-decoration: none;"><span style="color: white !important;">
+Возврат</span></a>
+	</mj-text>
+	</mj-column>
+	<mj-column width="22%" padding="8px 0 0 0">
+	<mj-text align="justify" padding="0" color="#A8A8A8" font-size="14px" color="#a8a8a8"><a href="https://shop.tefal.ru/contacts" style="text-decoration: none" ><span style="color: white !important;">
+Контакт</span></a>
+	</mj-text>
+	</mj-column>
+		</mj-group>
+		</mj-section>
+		<mj-section background-color="#000000">
+			<mj-column>
+			<mj-text align="center" font-size="12px" color="#A8A8A8" padding="20px 20px 10px" line-height="14px">
+Вы получили это письмо, потому что подписались на рассылку на сайте <a style="text-decoration: none;" href="https://shop.tefal.ru"><span style="color: white !important;">shop.tefal.ru</span></a>
+			</mj-text>
+			</mj-column>
+		</mj-section>
+		<mj-section css-class="footer-desk" background-color="#000000" padding="10px 0 30px" >
+		<mj-group>
+			<mj-column width="30%">
+	<mj-button css-class="footer-button" background-color="#EFEFEF" color="#A8A8A8" font-size="12px" border-radius="7px" inner-padding="1px" height="30px" width="106px" href="${Message.UnsubscribeLink}" padding-left="50px" >
+Отписаться
+	</mj-button>
+</mj-column>
+<mj-column width="70%">
+	<mj-button background-color="#EFEFEF" color="#A8A8A8" font-size="12px" border-radius="7px" inner-padding="1px" height="30px" width="106px" href="${Message.AccessibilityLink}" align="left" padding-left="40px">
+Вебверсия
+	</mj-button>
+</mj-column>
+		</mj-group>
+		</mj-section>
+		<mj-section css-class="footer-mob" background-color="#000000" padding="10px 0 30px" >
+		<mj-group>
+			<mj-column width="50%">
+	<mj-button css-class="footer-button" background-color="#EFEFEF" color="#A8A8A8" font-size="12px" border-radius="7px" inner-padding="1px" height="30px" width="106px" padding="0 20px" href="${Message.UnsubscribeLink}">
+Отписаться
+	</mj-button>
+</mj-column>
+<mj-column width="50%">
+	<mj-button background-color="#EFEFEF" color="#A8A8A8" font-size="12px" padding="0 20px" border-radius="7px" inner-padding="1px" height="30px" width="106px" href="${Message.AccessibilityLink}">
+Вебверсия
+	</mj-button>
+</mj-column>
+		</mj-group>
+		</mj-section>
+  </mj-body>
+</mjml>
